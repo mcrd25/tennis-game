@@ -12,7 +12,7 @@ const RADIUS = 10;
 
 //paddle variables
 var paddle = 210;
-var paddle2 = 300;
+var paddle2 = 300
 const PADDLE_HEIGHT = 100;
 const PADDLE_WIDTH = 10;
 
@@ -167,6 +167,6 @@ function colorCircle(centerX, centerY, radius, drawColor) {
 
 function colorRect(leftX, topY, width, height, drawColor) {
     canvasContext.fillStyle = drawColor;
-    canvasContext.fillRect(leftX, topY, width, height);
+    canvasContext.fillRect(leftX, topY, width, height)
 }
 
