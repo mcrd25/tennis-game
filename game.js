@@ -19,7 +19,7 @@ const PADDLE_WIDTH = 10;
 //score variables
 var playerScore = 0;
 var compScore = 0;
-const WIN_SCORE = 3;
+const WIN_SCORE = 7;
 var showWinScreen = false;
 var winMsg = '';
 
@@ -159,7 +159,7 @@ function moveEverything(){
 }
 
 function colorCircle(centerX, centerY, radius, drawColor) {
-    canvasContext.fillStyle = 'white';
+    canvasContext.fillStyle = 'red';
     canvasContext.beginPath();
     canvasContext.arc(centerX, centerY, radius, 0, Math.PI * 2, true );//first two args are centre of circle, third is radius, 4th and 5th are angles for circle (pi * 2 is circle if pi it would be semi-circle) 4th is start angle and 5th is end angle
     canvasContext.fill();
