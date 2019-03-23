@@ -1,1 +1,1 @@
-# Tennis Arcade Game - HTMLS (based on Udemey Course)
+# Tennis Arcade Game - HTMLS 
